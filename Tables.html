@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Inline Styles</title>
+</head>
+<body style="background-color: darkseagreen;">
+    <h1 style="text-align: center;color: blue;
+    background-color: deepskyblue;
+    font-family: fantasy;">Student Information</h1>
+    <hr>
+
+
+    <table border="1">
+        <tr bgcolor="aqua">
+            <th>Roll No</th>
+            <th>Student Name</th>
+            <th>Course</th>
+            <th>University</th>
+        </tr>
+        <tr>
+            <td align="center">1001 </td>
+            <td>Rahman</td>
+            <td>EEE</td>
+            <td>Vignans</td>
+        </tr>
+
+        <tr>
+            <td align="center">1002 </td>
+            <td>Sattar</td>
+            <td>ECE</td>
+            <td>Osmania</td>
+        </tr>
+
+        <tr>
+            <td align="center">1003</td>
+            <td>Bjarne Stroustrup</td>
+            <td>MCA</td>
+            <td>AMITY University</td>
+        </tr>
+
+        <tr>
+            <td align="center">1004</td>
+            <td>Dennis Ritchie</td>
+            <td>BTech</td>
+            <td>VTU</td>
+        </tr>
+
+        <tr>
+            <td align="center">1005</td>
+            <td>Gavin KIng</td>
+            <td>BTech</td>
+            <td>Bangalore University</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+        <hr color="red" size="10">
+        <h1 style="text-align:center;
+        font-family: monospace;letter-spacing: 10px; color: whitesmoke;">Employee Information</h1>
+        <hr>
+        <!-- 
+Cell padding is the space between the cell edges and the cell content.
+
+ 
+
+Cell spacing is the space between each cell.
+-->
+        <table border="2" cellpadding="10" cellspacing="20">
+            <tr bgcolor="yellow">
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th colspan="2">Technologies</th>
+            </tr>
+            <tr>
+                <td>11011</td>
+                <td>Mark John</td>
+                <td align="center" colspan="2">Spring Framework</td>
+            </tr>
+            <tr>
+                <td>22202</td>
+                <td>Mary</td>
+                <td align="center" colspan="2">Angular</td>
+            </tr>
+            <tr>
+                <td>33303</td>
+                <td>Arun Kumar</td>
+                <td align="center">Angular</td>
+                <td align="center">React</td>
+            </tr>
+            <tr>
+                <td>44404</td>
+                <td>Raheem</td>
+                <td align="center" colspan="2">HTML5</td>
+            </tr>
+            <tr >
+                <td>55503</td>
+                <td>Harris George</td>
+                <td align="center">JDBC</td>
+                <td align="center">Hibernate</td>
+            </tr>
+            <tr>
+                <td rowspan="2">66602</td>
+                <td rowspan="2">Mike</td>
+                <td align="center" colspan="2">Git</td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">Jenki</td>
+            </tr>
+        </table>
+
+
+        <!--
+            colspan- Merging of Columns
+            rowspan- Merging of Rows
+        -->
+</body>
+</html>
